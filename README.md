@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/3c9fa260-3110-4a9d-bf86-67974321f933)
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

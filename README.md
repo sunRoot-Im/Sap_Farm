@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAP Database Tables</title>
 </head>
 <body>
-    <hr style="height: 2px; background-color: black; border: none;">
-    학교 캡스톤 디자인 Jco Test
-    <ul>
-        <li> SAP GUI 연결 (SE37) 사용</li>
-        <li> 라즈베리파이에서 데이터 -> 파이어베이스 <--> 자바 <--> sap gui</li>
+    <h1>캡스톤디자인 - SAPFARM<h1>
+    <hr style="height: 1px; background-color: black; border: none;">
+    <ul style="background-color: #d4f5d4;">
+        <li> <h2>프로젝트 소개</h3> </li>
+        <li> <h2>개발 기간</h3> </li>
+        <li> <h2>멤버 구성</h3> </li>
+        <li> <h2>사용 기술</h3> </li>
     </ul>
     <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PRODUCT Table</h3>

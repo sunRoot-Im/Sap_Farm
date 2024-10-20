@@ -3,7 +3,7 @@
     <li> SAP GUI 연결 (SE37) 사용
 </ul>
 
-<h1>ZYC_DB_PRODUCT Table</h1>
+<h3>ZYC_DB_PRODUCT Table</h1>
     <table>
         <thead>
             <tr>
@@ -51,7 +51,7 @@
         </tbody>
     </table>
 
-<h1>ZYC_DB_SEED Table</h1>
+<h3>ZYC_DB_SEED Table</h1>
     <table>
         <thead>
             <tr>
@@ -99,7 +99,7 @@
         </tbody>
     </table>
 
-<h1>ZYC_DB_PLANT Table</h1>
+<h3>ZYC_DB_PLANT Table</h1>
     <table>
         <thead>
             <tr>

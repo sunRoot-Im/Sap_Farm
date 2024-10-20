@@ -8,10 +8,10 @@
     <h1>캡스톤디자인 - SAPFARM<h1>
     <hr style="height: 1px; background-color: black; border: none;">
     <ul style="background-color: #d4f5d4;">
-        <li> <h2>프로젝트 소개</h3> </li>
-        <li> <h2>개발 기간</h3> </li>
-        <li> <h2>멤버 구성</h3> </li>
-        <li> <h2>사용 기술</h3> </li>
+        <li> <h3>프로젝트 소개</h3> </li>
+        <li> <h3>개발 기간</h3> </li>
+        <li> <h3>멤버 구성</h3> </li>
+        <li> <h3>사용 기술</h3> </li>
     </ul>
     <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PRODUCT Table</h3>

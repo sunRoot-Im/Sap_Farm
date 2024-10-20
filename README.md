@@ -12,7 +12,7 @@
         <li> <h5>개발 기간</h5> </li>
         <li> <h5>멤버 구성</h5> </li>
         <li> <h5>사용 기술</h5> </li>
-        <img src="/img/tech.png" alt="이미지 설명" style="width: 300px; height: auto;">
+        <img src="/img/tech.png" alt="이미지 설명" style="width: 500px; height: auto;">
     </ul>
     <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PRODUCT Table</h3>

@@ -12,6 +12,8 @@
         <li> <h5>개발 기간</h5> </li>
         <li> <h5>멤버 구성</h5> </li>
         <li> <h5>사용 기술</h5> </li>
+        ![image](https://github.com/user-attachments/assets/02643320-eb0c-4252-8b40-8e0a36693c19)
+
     </ul>
     <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PRODUCT Table</h3>

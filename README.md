@@ -4,147 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAP Database Tables</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
 </head>
 <body>
+    <hr style="height: 2px; background-color: black; border: none;">
     학교 캡스톤 디자인 Jco Test
     <ul>
-        <li> SAP GUI 연결 (SE37) 사용
-        <li> 라즈베리파이에서 데이터 -> 파이어베이스 <--> 자바 <--> sap gui
+        <li> SAP GUI 연결 (SE37) 사용</li>
+        <li> 라즈베리파이에서 데이터 -> 파이어베이스 <--> 자바 <--> sap gui</li>
     </ul>
+    <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PRODUCT Table</h3>
-    <table>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; border: 1px solid black;">
         <thead>
             <tr>
-                <th>Field</th>
-                <th>Key</th>
-                <th>Data Element</th>
-                <th>Data Type</th>
-                <th>Length</th>
-                <th>Short Description</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Field</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Key</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Element</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Type</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Length</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Short Description</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>MANDT</td>
-                <td>Yes</td>
-                <td>MANDT</td>
-                <td>CLNT</td>
-                <td>3</td>
-                <td>Client</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Yes</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CLNT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">3</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Client</td>
             </tr>
             <tr>
-                <td>LOT</td>
-                <td>Yes</td>
-                <td>ZYC_PROD_LOT_NO_043</td>
-                <td>CHAR</td>
-                <td>12</td>
-                <td>Lot Number</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">LOT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Yes</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_PROD_LOT_NO_043</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CHAR</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">12</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Lot Number</td>
             </tr>
             <tr>
-                <td>MEDIUM</td>
-                <td>No</td>
-                <td>ZYC_PROD_MEDIUM</td>
-                <td>CHAR</td>
-                <td>6</td>
-                <td>Medium</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MEDIUM</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">No</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_PROD_MEDIUM</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CHAR</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">6</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Medium</td>
             </tr>
             <tr>
-                <td>PROD_DATE</td>
-                <td>No</td>
-                <td>ZYC_PROD_DATE_043</td>
-                <td>DATS</td>
-                <td>8</td>
-                <td>Product Date</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">PROD_DATE</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">No</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_PROD_DATE_043</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">DATS</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">8</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Product Date</td>
             </tr>
         </tbody>
     </table>
+    <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_SEED Table</h3>
-    <table>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; border: 1px solid black;">
         <thead>
             <tr>
-                <th>Field</th>
-                <th>Key</th>
-                <th>Data Element</th>
-                <th>Data Type</th>
-                <th>Length</th>
-                <th>Short Description</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Field</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Key</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Element</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Type</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Length</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Short Description</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>MANDT</td>
-                <td>Yes</td>
-                <td>MANDT</td>
-                <td>CLNT</td>
-                <td>3</td>
-                <td>Client</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Yes</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CLNT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">3</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Client</td>
             </tr>
             <tr>
-                <td>CODE</td>
-                <td>Yes</td>
-                <td>ZYC_SEED_CODE_043</td>
-                <td>CHAR</td>
-                <td>15</td>
-                <td>Seed Code</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CODE</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Yes</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_SEED_CODE_043</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CHAR</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">15</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Seed Code</td>
             </tr>
             <tr>
-                <td>NAME</td>
-                <td>No</td>
-                <td>ZYC_SEED_NAME_043</td>
-                <td>CHAR</td>
-                <td>15</td>
-                <td>Seed Name</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">NAME</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">No</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_SEED_NAME_043</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CHAR</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">15</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Seed Name</td>
             </tr>
             <tr>
-                <td>GROUPUP</td>
-                <td>No</td>
-                <td>ZYC_SEED_GROW_043</td>
-                <td>INT4</td>
-                <td>10</td>
-                <td>Seed Growth Group</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">GROUPUP</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">No</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">ZYC_SEED_GROW_043</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">INT4</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">10</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Seed Growth Group</td>
             </tr>
         </tbody>
     </table>
+    <hr style="height: 2px; background-color: black; border: none;">
     <h3>ZYC_DB_PLANT Table</h3>
-    <table>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; border: 1px solid black;">
         <thead>
             <tr>
-                <th>Field</th>
-                <th>Key</th>
-                <th>Data Element</th>
-                <th>Data Type</th>
-                <th>Length</th>
-                <th>Short Description</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Field</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Key</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Element</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Data Type</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Length</th>
+                <th style="border: 1px solid black; padding: 10px; background-color: #f2f2f2; text-align: left;">Short Description</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>MANDT</td>
-                <td>Yes</td>
-                <td>MANDT</td>
-                <td>CLNT</td>
-                <td>3</td>
-                <td>Client</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Yes</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">MANDT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">CLNT</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">3</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: left;">Client</td>
             </tr>
         </tbody>
     </table>
 </body>
 </html>
-

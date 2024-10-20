@@ -1,9 +1,34 @@
-학교 캡스톤 디자인 Jco Test
-<ul>
-    <li> SAP GUI 연결 (SE37) 사용
-</ul>
-
-<h3>ZYC_DB_PRODUCT Table</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP Database Tables</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    학교 캡스톤 디자인 Jco Test
+    <ul>
+        <li> SAP GUI 연결 (SE37) 사용
+        <li> 라즈베리파이에서 데이터 -> 파이어베이스 <--> 자바 <--> sap gui
+    </ul>
+    <h3>ZYC_DB_PRODUCT Table</h3>
     <table>
         <thead>
             <tr>
@@ -50,8 +75,7 @@
             </tr>
         </tbody>
     </table>
-
-<h3>ZYC_DB_SEED Table</h1>
+    <h3>ZYC_DB_SEED Table</h3>
     <table>
         <thead>
             <tr>
@@ -98,8 +122,7 @@
             </tr>
         </tbody>
     </table>
-
-<h3>ZYC_DB_PLANT Table</h1>
+    <h3>ZYC_DB_PLANT Table</h3>
     <table>
         <thead>
             <tr>
@@ -122,3 +145,6 @@
             </tr>
         </tbody>
     </table>
+</body>
+</html>
+
